@@ -11,12 +11,13 @@
    ========================================================================== */
 
 html {
+  background-color: #222;
     color: #222;
     font-size: 1em;
     line-height: 1.4;
 }
-
 /*
+
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
  *
@@ -97,7 +98,7 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #222;
   height: 100%;
 }
 
@@ -117,17 +118,23 @@ body {
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  width: 30%;
+/*  width: 30%;*/
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  height: auto;
 }
 
+.div-1{
+border-right: 1px solid #fff;
+}
+
+.div-2{
+border-right: 1px solid #fff;
+}
 
 
 
